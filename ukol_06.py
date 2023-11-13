@@ -43,3 +43,9 @@ elif znacka == "Škoda":
     print(auto2.get_info())
 else:
     print("Bohužel tuto značku nemáme k dispozici.")
+
+print(znacka.pujc_auto())
+
+stav_tachometru = int(input("Zadej aktualní stav tachometru: "))
+pocet_dni = int(input("Kolik dní bylo auto půjčené? "))
+print(znacka.vrat_auto(stav_tachometru, pocet_dni))
