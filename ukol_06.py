@@ -31,21 +31,24 @@ class Auta:
         return f"Cena za vypůjčení auta je {cena_pujceni}."
 
 
+# create objects
 auto1 = Auta("4A2 302", "Peugeot 403 Cabrio", 47534)
 auto2 = Auta("1P3 474", "Škoda Octavia", 41253)
 
+# ask user for the car they want to hire
 znacka = input("Jakou značku si přejes půjčit? ").strip().title()
+# print information about the car, rent it if available and calculate price for hiring
 if znacka == "Peugeot":
-    znacka = auto1
     print(auto1.get_info())
+    print(auto1.pujc_auto())
+    stav_tachometru = int(input("Zadej stav tachometru při vrácení: "))
+    pocet_dni = int(input("Kolik dní bylo auto půjčené? "))
+    print(auto1.vrat_auto(stav_tachometru, pocet_dni))
 elif znacka == "Škoda":
-    znacka = auto2
     print(auto2.get_info())
+    print(auto2.pujc_auto())
+    stav_tachometru = int(input("Zadej stav tachometru při vrácení: "))
+    pocet_dni = int(input("Kolik dní bylo auto půjčené? "))
+    print(auto2.vrat_auto(stav_tachometru, pocet_dni))
 else:
     print("Bohužel tuto značku nemáme k dispozici.")
-
-print(znacka.pujc_auto())
-
-stav_tachometru = int(input("Zadej aktualní stav tachometru: "))
-pocet_dni = int(input("Kolik dní bylo auto půjčené? "))
-print(znacka.vrat_auto(stav_tachometru, pocet_dni))
