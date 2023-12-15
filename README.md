@@ -1,1 +1,2 @@
-# kurz-python
+### Kurz programování v Pythonu
+
