@@ -4,7 +4,7 @@
 
 |    | Datum     | Téma             | Odkaz na lekci                                                           | Odkaz na úkol | Řešení úkolu  
 | -- | --------- | ---------------- | ------------------------------------------------------------------------ | ------------- | -------------
-| 1  | 25.09.2023 | Úvod, opakování, slicing, metody, moduly | https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/uvod/ , https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slicing-metody-moduly/ | [ukol-01](./ukoly/ukol-01.md)
+| 1  | 25.09.2023 | Úvod, opakování, slicing, metody, moduly | https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/uvod/ , https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slicing-metody-moduly/ | [ukol-01](https://github.com/JankaMarschalkova/python-podzim-pondeli-2023/blob/main/ukoly/ukol-01.md)
 | 2  | 02.10.2023 | Slovníky, slovníky a cykly | https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky ,  https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/slovniky/slovniky-a-cykly  | [ukol-02](./ukoly/ukol-02.md)
 | 3  | 09.10.2023 | JSON, čtení a zápis JSON dat | https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/json/ | [ukol-03](./ukoly/ukol-03.md)
 | 4  | 16.10.2023 | Funkce | https://kodim.cz/programovani/uvod-do-progr-2/uvod-do-programovani-2/vlastni-funkce/ | [ukol-04](./ukoly/ukol-04.md)
