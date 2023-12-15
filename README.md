@@ -1,4 +1,4 @@
-### Kurz programování v Pythonu
+# Kurz programování v Pythonu
 
 ## Lekce
 
