@@ -29,7 +29,7 @@ print(f"Seznam průměrných teplot: {prumerne_teploty}.")
 
 
 # seznam ranních teplot
-ranni_teploty = [den[1] for den in teploty]
+ranni_teploty = [den[0] for den in teploty]
 
 print(f"Ranní teploty: {ranni_teploty}.")
 
