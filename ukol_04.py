@@ -60,7 +60,7 @@ def verify_phone_number(phone_number: str) -> bool:
     else:
         return False
 
-def calculate_price(text: str, msg_price = 3) -> int:
+def calculate_price(text: str, msg_price: str = 3) -> int:
     """Calculate the total cost of the entered text message. 
     Every 180 characters of the message costs 3 czech crowns.
     
@@ -77,7 +77,7 @@ def calculate_price(text: str, msg_price = 3) -> int:
         total_price = (len(text) // 180 + 1) * msg_price
     return total_price
 
-user_phone_number = input(str("Zadej číslo, kam chceš zaslat zprávu: ")).replace(" ", "")
+user_phone_number = input("Zadej číslo, kam chceš zaslat zprávu: ").replace(" ", "")
 if verify_phone_number(user_phone_number):
     user_text = input("Napiš text zprávy: ")
     print(f"Zpráva stoji {calculate_price(user_text, msg_price = 3)} kč.")
